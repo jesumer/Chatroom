@@ -49,7 +49,7 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.staticfiles',
+    'debug_toolbar',
     'django_socketio',
     'chat',
 )
-
