@@ -1,6 +1,13 @@
-# Chatroom
-Django-chat app using django-socketio.
+# {{ project_name }}
 
-# References
-https://github.com/stephenmcd/django-socketio
-https://github.com/gevent/gevent/issues/287
+## Getting Started
+
+Make sure you are using a virtual environment of some sort (e.g. `virtualenv` or
+`pyenv`).
+
+```
+pip install -r requirements.txt
+./manage.py migrate
+./manage.py loaddata sites
+./manage.py runserver
+```
